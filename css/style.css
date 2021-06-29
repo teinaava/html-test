@@ -112,8 +112,6 @@ body{
     color: #FFFFFF;
 }
 .header__list-item:hover{
-    /* border: none;
-    border-bottom: 1px solid #fff; */
     transform: scale(1.05);
 }
 .info{
@@ -274,16 +272,14 @@ body{
 .whatWeDo__item{
     text-align: center;
     max-width: 172px;
-    margin-left: 155px;
     margin-bottom: 150px;
+    margin-right: 85px;
+    margin-left: 85px;
 }
 .whatWeDo__items{
-    display: inline-block;
+    display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-    align-content: center;
-    column-count: 3;
-    text-align: center;
 }
 .whatWeDo-item-text{
     font-family: Oswald;
@@ -301,7 +297,7 @@ body{
 .gallery{
     display: inline-block;
     column-count: 4;
-    justify-content: stretch;
+    justify-content: center;
     flex-wrap: nowrap;
     max-width: 1900px;
     border-spacing: 0px;
@@ -430,7 +426,7 @@ body{
 .contact__item{
     list-style: none;
     text-align: center;
-    max-width: 255px;
+    width: 255px;
 }
 .contact__item-icon{
     margin-bottom: 30px;
